@@ -18,9 +18,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pytest
-    - name: Verify pytest installation
-      run: |
-        pip show pytest
     - name: Run tests
       run: |
-        pytest tests
+        pytest
