@@ -1,0 +1,3 @@
+# Add any Python dependencies required for your project here
+# For example:
+# requests==2.25.1
