@@ -1,6 +1,4 @@
-# -Bio-vpn-script-Linux
-A Python script to automate VPN connections on Linux using OpenConnect. The script reads a list of servers from a text file, allows the user to select a server, and connects to it via OpenConnect.
-# Bio-vpn-script-Linux
+# Bio-vpn-scrip-Linux
 
 A Python script that reads a list of servers from a text file and allows the user to select a server to connect using `openconnect` on a Linux system.
 
@@ -9,7 +7,6 @@ A Python script that reads a list of servers from a text file and allows the use
 - Reads server list from a `server.txt` file.
 - Prompts the user to select a server by number.
 - Uses `openconnect` to connect to the selected server.
-- Designed to run on Linux with `bash` and `openconnect`.
 
 ## Prerequisites
 
@@ -19,7 +16,23 @@ Ensure the following are installed on your Linux system:
 - `openconnect`
 - `sudo` privileges
 
-To install `openconnect`, run:
+## Installation
 
-```bash
-sudo apt-get install openconnect
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/USERNAME/Bio-vpn-scrip-Linux.git
+   cd Bio-vpn-scrip-Linux
+2 .Create a server.txt file in the root directory with your server addresses, one per line.
+Example:
+vpn1.example.com
+vpn2.example.com
+vpn3.example.com
+
+## Usage
+1.Run the script with Python:
+
+  ```bash
+  python3 vpn_connect.py
+
+
