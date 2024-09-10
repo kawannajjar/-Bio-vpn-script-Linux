@@ -1,4 +1,4 @@
-# Contributing to Bio-vpn-scrip-Linux
+# Contributing to Bio-vpn-script-Linux
 
 We welcome contributions to this project! To ensure a smooth collaboration, please follow these guidelines:
 
