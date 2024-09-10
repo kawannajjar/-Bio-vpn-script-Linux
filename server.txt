@@ -1,0 +1,3 @@
+vpn1.example.com
+vpn2.example.com
+vpn3.example.com
