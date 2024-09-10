@@ -31,8 +31,24 @@ vpn3.example.com
 
 ## Usage
 1.Run the script with Python:
+   ```bash
+      python3 vpn_connect.py
 
-  ```bash
-  python3 vpn_connect.py
+## Testing
+
+To run the tests, use the following command:
+
+```bash
+pytest
+
+
+## Supported Versions
+
+This project supports the following versions:
+- Python 3.9
+- Docker 20.10
+
+
+
 
 
