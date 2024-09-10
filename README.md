@@ -16,7 +16,7 @@ Ensure the following are installed on your Linux system:
 - `openconnect`
 - `sudo` privileges
 
-## Installation
+## InstallationT
 
 1. Clone the repository:
 
@@ -31,16 +31,15 @@ vpn3.example.com
 
 ## Usage
 1.Run the script with Python:
-      ```bash
-      python3 vpn_connect.py
-
-## Testing
+```bash
+	python3 vpn_connect.py 
+```
+## TestinG
 
 To run the tests, use the following command:
-
-      ```bash
-      pytest
-
+```bash
+pytest
+```
 
 ## Supported Versions
 
