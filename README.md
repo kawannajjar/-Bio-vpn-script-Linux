@@ -31,15 +31,15 @@ vpn3.example.com
 
 ## Usage
 1.Run the script with Python:
-   ```bash
+      ```bash
       python3 vpn_connect.py
 
 ## Testing
 
 To run the tests, use the following command:
 
-```bash
-pytest
+      ```bash
+      pytest
 
 
 ## Supported Versions
