@@ -1,4 +1,6 @@
-# Bio-vpn-scrip-Linux
+# Bio VPN Script for Linux
+
+This repository contains a Python script for connecting to VPN servers on Linux using OpenConnect. It's designed to simplify the process of connecting to multiple VPN servers.
 
 A Python script that reads a list of servers from a text file and allows the user to select a server to connect using `openconnect` on a Linux system.
 
